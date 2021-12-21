@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/favorite_border_24_white.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/favorite_filled_24_white.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_delete_darker.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_delete_light.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_github.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_info_light.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/drawable/ic_logo.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/font-v26/star_jedi.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/font-v26/starwars_font.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/font/star_jedi.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/font/starwars_font.xml" value="0.28958333333333336" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/dialog_info.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/fragment_favorites.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/fragment_home.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/fragment_quote.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/fragment_quote_inspect.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/header.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/layout/item.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/menu/custom_actionbar_layout.xml" value="0.259375" />
+        <entry key="..\:/Users/kzoty/Downloads/Quote-Wars-master/QuoteWars/app/src/main/res/menu/info_actionbar_layout.xml" value="0.259375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
