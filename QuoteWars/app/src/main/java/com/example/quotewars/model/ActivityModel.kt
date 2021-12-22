@@ -1,8 +1,7 @@
 package com.example.quotewars.model
 
-import androidx.room.ColumnInfo
-import androidx.room.Entity
-import androidx.room.PrimaryKey
+import androidx.databinding.adapters.Converters
+import androidx.room.*
 import com.example.quotewars.MainActivity
 import com.squareup.moshi.Json
 import java.math.BigDecimal
@@ -19,10 +18,22 @@ data class ActivityModel (
 
 )*/
 
+class Converters {
+    @TypeConverter
+    fun fromLong(value: Long?): BigDecimal? {
+        return if (value == null) null else BigDecimal(value).divide(BigDecimal(100))
+    }
+
+    @TypeConverter
+    fun toLong(bigDecimal: BigDecimal?): Long? {
+        return bigDecimal?.multiply(BigDecimal(100))?.toLong()
+    }
+}
+
 @Entity(tableName = "favorite_activity_table")
 data class ActivityModel (
     @ColumnInfo(name = "activity")
-    val activity: String,
+    @Json(name = "boredActivity")val activity: String,
     @ColumnInfo(name = "type")
     val type: String,
     @ColumnInfo(name = "participants")
@@ -40,3 +51,5 @@ data class ActivityModel (
     val faction: Int
 
 )
+
+

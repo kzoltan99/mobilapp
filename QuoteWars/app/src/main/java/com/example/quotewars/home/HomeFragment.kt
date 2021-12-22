@@ -28,7 +28,7 @@ class HomeFragment : Fragment() {
         binding.gameViewModel = viewModel as HomeFragmentViewModel
         binding.lifecycleOwner = viewLifecycleOwner
         binding.buttonGetQuote.setOnClickListener {
-            findNavController().navigate(R.id.toQuoteFragment)
+            findNavController().navigate(R.id.toActivityFragment)
         }
         binding.buttonGoToFavs.setOnClickListener {
             findNavController().navigate(R.id.action_homeFragment_to_favoritesFragment)

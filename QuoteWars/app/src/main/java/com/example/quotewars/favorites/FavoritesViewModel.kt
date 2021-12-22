@@ -28,7 +28,7 @@ class FavoritesViewModel(
     fun onClickListItem(id: Int,view: View) {
         viewModelScope.launch {
             val gottenQuote = database.get(id)
-            val action = FavoritesFragmentDirections.navigateToQuoteInspectfragment(gottenQuote.activity,id)
+            val action = FavoritesFragmentDirections.navigateToActivityInspectfragment()
             Navigation.findNavController(view).navigate(action)
 
         }

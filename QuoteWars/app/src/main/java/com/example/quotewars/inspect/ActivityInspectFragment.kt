@@ -26,7 +26,7 @@ class ActivityInspectFragment : Fragment() {
         val viewModel = ViewModelProvider(this,viewModelFactory).get(ActivityInspectViewModel::class.java)
         viewModel.getQuote(args.quoteId)
         binding.viewModel = viewModel
-        binding.textQuoteToInspect.text = args.quote
+        binding.textQuoteToInspect.text = args.activity
         binding.buttonDeleteQuote.setOnClickListener {
             viewModel.deleteQuote()
             findNavController().navigate(ActivityInspectFragmentDirections.navigateBackToRecyclerView())

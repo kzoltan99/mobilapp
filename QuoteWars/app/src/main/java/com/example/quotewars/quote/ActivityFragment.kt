@@ -26,10 +26,10 @@ class ActivityFragment : Fragment() {
                 false
         )
         val application = requireNotNull(this.activity).application
-        val dataSource = ActivityDatabase.getInstance(application).quoteDatabaseDao
+        val dataSource = ActivityDatabase.getInstance(application).activityDatabaseDao
         val viewModelFactory = ActivityViewModelFactory(dataSource,application)
         val viewModel = ViewModelProvider(this,viewModelFactory).get(ActivityViewModel::class.java)
-        binding.quoteViewModel = viewModel
+        binding.activityViewModel = viewModel
         binding.lifecycleOwner = viewLifecycleOwner
         binding.buttonNextQuote.setOnClickListener {
             viewModel.getStarWarsQuote()
